@@ -5,8 +5,9 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
-import {myReducer} from './reducers/myReducer';
+import {myReducer} from './redux/reducers/myReducer';
 import thunk from 'redux-thunk';
+
 
 function playlist(state = []) {
     return state;
@@ -53,8 +54,6 @@ const store = createStore(
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 /* eslint-enable */
-
-console.log('111111', store.getState());
 
 ReactDOM.render(
     <Provider store = {store}>

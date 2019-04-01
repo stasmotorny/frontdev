@@ -1,5 +1,17 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Montserrat;
+  src: url("./fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("./fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+body {
+  padding-top: 18px;
+  padding-left: 151px;
+  padding-right: 151px;
 }
 
 .App-logo {
@@ -8,10 +20,10 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  background-color: #ffffff;
+  padding: 0px;
+  padding-right: 139px;
+  padding-left: 139px;
 }
 
 .App-title {
@@ -20,6 +32,235 @@
 
 .App-intro {
   font-size: large;
+}
+
+.header--top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header--logo{
+  width: 40%;
+  display: flex;
+}
+
+.logo{
+  width: 57px;
+  height: 57px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-right: 12px;
+}
+
+.description {
+  float: left;
+  align-self: center;
+}
+
+.my_name {
+  font-family: Montserrat-Bold;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.description_occupation {
+  margin: 0px;
+}
+
+.aboutme--shortinfo__greetings {
+  font-family: Montserrat;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.aboutme--shortinfo__name {
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.aboutme--shortinfo__occupation {
+  font-family: Montserrat;
+  font-size: 18px;
+  color: #6a696b;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.header--Navigation {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.header--Navigation__point {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat-Bold;
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+.header--Navigation__link {
+  color: #2b2a2c;
+  text-decoration: none;
+}
+
+.header--Navigation__link:hover {
+  border-bottom: 3px solid #2b2a2c;
+}
+
+.sitefooter {
+  height: 62px;
+  background-color: #2b2a2c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 139px;
+  padding-left: 139px;
+}
+
+.copyrights {
+  font-family: Montserrat;
+  font-size: 14px;
+  color: #8d8d8e;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-right: 31px;
+}
+
+.sitefooter--socials {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.sitefooter--socials__behance {
+  display: block;
+  width: 24px;
+  height: 15px;
+  content: "";
+  background-image: url("./icons/sprint.png");
+  background-position: -318px 0;
+}
+
+.sitefooter--socials__ball {
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-image: url("./icons/sprint.png");
+  background-position: -354px 0;
+}
+
+.sitefooter--socials__linked {
+  display: block;
+  width: 19px;
+  height: 18px;
+  content: "";
+  background-image: url("./icons/sprint.png");
+  background-position: -386px 0;
+}
+
+.sitefooter--socials__fb {
+  display: block;
+  width: 11px;
+  height: 20px;
+  content: "";
+  background-image: url("./icons/sprint.png");
+  background-position: -416px 0;
+}
+
+.sitefooter--socials__insta {
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-image: url("./icons/sprint.png");
+  background-position: -440px 0;
+}
+
+.sitefooter--socials__twitter {
+  display: block;
+  width: 20px;
+  height: 17px;
+  content: "";
+  background-image: url("./icons/sprint.png");
+  background-position: -474px 0;
+}
+
+.footernavigation--list {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: flex-end;
+}
+
+.footernavigation--list__point{
+  display: inline;
+  margin-right: 19px;
+}
+
+.footernavigation--list__link {
+  color: #575758;
+  text-decoration: none;
+}
+
+.footernavigation--list__link:hover {
+  color: white;
+}
+
+.socials--list {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.socials--point{
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.socials--point:hover a {
+  color: white;
+}
+
+.footernavigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.footernavigation--btn {
+  font-family: Montserrat;
+  font-size: 14px;
+  border: solid 1px #575758;
+  border-radius: 25px;
+  background-color: #2b2a2c;
+  color: #575758;
+  width: 108px;
+  height: 32px;
+  align-self: center;
+  /*padding-bottom: 11px;
+  padding-top: 11px;
+  padding-left: 22px;
+  padding-right: 22px;*/
+}
+
+.footernavigation--btn:hover {
+  background-color: white;
+  color: black;
 }
 
 /*  */
@@ -35,3 +276,87 @@
 .content {
   color: black;
 }
+
+.btns--hiremeresume {
+  border-radius: 25px;
+  padding-left: 49px;
+  padding-right: 49px;
+  height: 52px;
+  font-family: Montserrat;
+  font-size: 16px;
+  background-color: white;
+  color: #6a696b;
+  border: 1px solid #6a696b;
+  box-shadow: none;
+  margin-right: 15px;
+}
+
+.btns--hiremeresume:hover {
+  background-color: black;
+  color: white;
+}
+
+.about-me--socials{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 42px;
+}
+.about-me--socials__behance {
+  display: block;
+  width: 41px;
+  height: 41px;
+  margin-right: 11px;
+  content: "";
+  background-image: url("./icons/sprint.png");
+  background-position: 0 0;
+}
+
+.about-me--socials__ball {
+  display: block;
+  width: 41px;
+  height: 41px;
+  margin-right: 11px;
+  content: "";
+  background-image: url("./icons/sprint.png");
+  background-position: -53px 0;
+}
+
+.about-me--socials__linked {
+  display: block;
+  width: 41px;
+  height: 41px;
+  margin-right: 11px;
+  content: "";
+  background-image: url("./icons/sprint.png");
+  background-position: -106px 0;
+}
+
+.about-me--socials__fb {
+  display: block;
+  width: 41px;
+  height: 41px;
+  margin-right: 11px;
+  content: "";
+  background-image: url("./icons/sprint.png");
+  background-position: -159px 0;
+}
+
+.about-me--socials__insta {
+  display: block;
+  width: 41px;
+  height: 41px;
+  margin-right: 11px;
+  content: "";
+  background-image: url("./icons/sprint.png");
+  background-position: -212px 0;
+}
+
+.about-me--socials__twitter{
+  display: block;
+  width: 41px;
+  height: 41px;
+  content: "";
+  background-image: url("./icons/sprint.png");
+  background-position: -265px 0;
+}
+

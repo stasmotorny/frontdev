@@ -1,6 +1,4 @@
-const initialState = {};
-
-export function myReducer(state = initialState, action) {
+export function myReducer(state = {}, action) {
     switch (action.type) {
         case 'NOTHING':
             return {

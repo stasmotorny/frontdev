@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { CloudinaryContext, Transformation, Image } from 'cloudinary-react';
-// import { Request } from '../requestPhoto';
 
 class Gallery extends Component {
     constructor(props) {
@@ -13,7 +12,7 @@ class Gallery extends Component {
 
     componentWillMount() {
         // Request for images tagged animals
-        axios.get('https://res.cloudinary.com/dphlxxsh1/image/list/animals.json', {heders: {sign_url: true,}})
+        axios.get('https://res.cloudinary.com/dphlxxsh1/image/list/animals.json')
             .then(res => {
                 console.log(res.data.resources);
                 this.setState({gallery: res.data.resources});
@@ -36,7 +35,7 @@ class Gallery extends Component {
                                         <div className="img">
                                             <div>
                                                 <a target="_blank" href={`https://res.cloudinary.com/dphlxxsh1/image/upload/${data.public_id}.jpg`}>
-                                                    <Image publicId={data.public_id } signUrl="true">
+                                                    <Image publicId={data.public_id }>
                                                         <Transformation
                                                             crop="scale"
                                                             width="300"
