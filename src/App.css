@@ -779,7 +779,7 @@ h3 {
 }
 
 .gallery--container{
-  background-image: url(/static/media/bg.f7ed72cd.jpg);
+  background-image: url("icons/bg.jpg");
   margin-left: -375px;
   margin-right: -375px;
   padding-left: 375px;
