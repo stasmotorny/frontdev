@@ -286,7 +286,7 @@
 
 .contacts {
   width: 100%;
-  background-image: url(/static/media/bg.f7ed72cd.jpg);
+  background-image: url("icons/bg.jpg");;
   margin-left: -375px;
   margin-right: -375px;
   margin-top: 72px;

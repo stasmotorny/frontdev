@@ -1,7 +1,7 @@
 {
   "name": "my-spa",
   "version": "0.1.0",
-  "homepage": "https://stasmotorny.github.io/myspa/",
+  "homepage": "http://stasmotorny.github.io/myspa/",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
