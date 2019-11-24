@@ -5,14 +5,27 @@
   "dependencies": {
     "axios": "^0.18.0",
     "cloudinary-react": "^1.0.6",
+    "d3-ease": "^1.0.5",
+    "flubber": "^0.4.2",
     "form-serialize": "^0.7.2",
+    "object-to-formdata": "^1.6.4",
+    "popmotion": "^8.6.10",
     "react": "^16.5.0",
+    "react-autosize-textarea": "^7.0.0",
+    "react-burger-menu": "^2.6.10",
+    "react-circular-progressbar": "^2.0.1",
     "react-dom": "^16.5.0",
+    "react-input-autosize": "^2.2.1",
+    "react-move": "^5.2.1",
+    "react-pose": "^4.0.8",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5",
+    "react-visibility-sensor": "^5.0.2",
+    "react-vivus": "0.0.2",
     "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "vivus": "^0.4.4"
   },
   "scripts": {
     "start": "react-scripts start",
