@@ -34,12 +34,12 @@ class Header extends Component {
                             <p className="aboutme--shortinfo__occupation">Front-end developer</p>
                         </div>
                         <div className="about-me--socials">
-                            <a href="http://behance.com" className="about-me--socials__behance social--link"></a>
-                            <a href="http://ball.com" className="about-me--socials__ball social--link"></a>
-                            <a href="http://linkedin.com" className="about-me--socials__linked social--link"></a>
-                            <a href="http://fb.com" className="about-me--socials__fb social--link"></a>
-                            <a href="http://instagram.com" className="about-me--socials__insta social--link"></a>
-                            <a href="http://twitter.com" className="about-me--socials__twitter social--link"></a>
+                            <a href="https://www.behance.net/stasmotorny" className="about-me--socials__behance social--link"></a>
+                            <a href="https://dribbble.com/stassi4ek" className="about-me--socials__ball social--link"></a>
+                            <a href="https://www.linkedin.com/in/stanislav-motorny-441928198/" className="about-me--socials__linked social--link"></a>
+                            <a href="https://www.facebook.com/stasmotorny" className="about-me--socials__fb social--link"></a>
+                            <a href="https://www.instagram.com/stasmotorny/" className="about-me--socials__insta social--link"></a>
+                            <a href="https://twitter.com/stasmotorny" className="about-me--socials__twitter social--link"></a>
                         </div>
                         <div className="btns">
                             <NavLink to="/contact" className="btns--hiremeresumelink">HIRE ME</NavLink>

@@ -8,12 +8,12 @@ class Footer extends Component {
                 <div className="sitefooter--socials">
                     <p className="copyrights">© 2018 UI43 - Free Templates</p>
                     <ul className="socials--list">
-                        <li className="socials--point"><a href="http://behance.com" className="sitefooter--socials__behance social--link"></a></li>
-                        <li className="socials--point"><a href="http://ball.com" className="sitefooter--socials__ball social--link"></a></li>
-                        <li className="socials--point"><a href="http://linkedin.com" className="sitefooter--socials__linked social--link"></a></li>
-                        <li className="socials--point"><a href="http://fb.com" className="sitefooter--socials__fb social--link"></a></li>
-                        <li className="socials--point"><a href="http://instagram.com" className="sitefooter--socials__insta social--link"></a></li>
-                        <li className="socials--point"><a href="http://twitter.com" className="sitefooter--socials__twitter social--link"></a></li>
+                        <li className="socials--point"><a href="https://www.behance.net/stasmotorny" className="sitefooter--socials__behance social--link"></a></li>
+                        <li className="socials--point"><a href="https://dribbble.com/stassi4ek" className="sitefooter--socials__ball social--link"></a></li>
+                        <li className="socials--point"><a href="https://www.linkedin.com/in/stanislav-motorny-441928198/" className="sitefooter--socials__linked social--link"></a></li>
+                        <li className="socials--point"><a href="https://www.facebook.com/stasmotorny" className="sitefooter--socials__fb social--link"></a></li>
+                        <li className="socials--point"><a href="https://www.instagram.com/stasmotorny/" className="sitefooter--socials__insta social--link"></a></li>
+                        <li className="socials--point"><a href="https://twitter.com/stasmotorny" className="sitefooter--socials__twitter social--link"></a></li>
                     </ul>
                 </div>
                 <div className="footernavigation">
