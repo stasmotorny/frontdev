@@ -1,7 +1,7 @@
 {
   "name": "my-spa",
   "version": "0.1.0",
-  "homepage": "http://stasmotorny.github.io/myspa/",
+  "homepage": "https://github.com/stasmotorny/stasmotorny.github.io.git",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
@@ -35,7 +35,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "master -d build",
     "heroku-postbuild": "npm run build"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
