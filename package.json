@@ -4,7 +4,7 @@
   "homepage": "https://github.com/stasmotorny/stasmotorny.github.io.git",
   "private": true,
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "cloudinary-react": "^1.0.6",
     "d3-ease": "^1.0.5",
     "flubber": "^0.4.2",
