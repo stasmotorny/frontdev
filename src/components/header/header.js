@@ -10,7 +10,7 @@ class Header extends Component {
                 <div className="header--top">
                     <div className="header--logo">
                         <div className="logo">
-                            <img src={logo} alt="" className="logo--img"/>
+                            <NavLink to="/home"><img src={logo} alt="" className="logo--img"/></NavLink>
                         </div>
                         <div className="description">
                             <p className="my_name">Stas Motorny</p>
