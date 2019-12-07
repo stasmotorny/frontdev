@@ -1,7 +1,7 @@
 import {NavLink} from "react-router-dom";
 import React, { Component } from "react";
 import logo from '../../icons/logo.png';
-import resume from '../../icons/resume_min.pdf';
+import resume from '../../icons/resume.pdf';
 
 class Header extends Component {
     render() {
