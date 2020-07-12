@@ -1,0 +1,199 @@
+@keyframes bottom-block-animation {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 60px;
+    }
+
+}
+
+@keyframes top-block-animation {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 100%;
+    }
+
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    margin-right: -375px;
+    margin-left: -375px;
+    padding-bottom: 96px;
+}
+
+.gallery--container{
+    background-image: url("icons/bg.jpg");
+    margin-left: -375px;
+    margin-right: -375px;
+    padding-left: 375px;
+    padding-right: 375px;
+    display: flex;
+    flex-direction: column;
+}
+
+.galleryItem {
+    width: 200px;
+}
+
+.galleryDescription {
+    height: calc(100vw / 3 / 1.5);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.galleryDescription--textBlock {
+    background-color: rgba(0,0,0, 0.6);
+    color: white;
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 72px;
+}
+
+
+.galleryDescription--links {
+    background-color: rgba(0,0,0, 0.6);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 0;
+    visibility: hidden;
+    padding-bottom: 8px;
+}
+
+.galleryDescription:hover > .galleryDescription--links {
+    height: 60px;
+    visibility: visible;
+    animation: bottom-block-animation 0.1s linear;
+}
+
+.galleryDescription:hover > .galleryDescription--textBlock {
+    height: 100%;
+    visibility: visible;
+    animation: top-block-animation 0.1s linear;
+}
+
+.galleryDescription--links__left {
+    border-top-left-radius: 26px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 26px;
+    padding-left: 49px;
+    padding-right: 49px;
+    height: 52px;
+    line-height: 52px;
+    font-family: Montserrat;
+    font-size: 16px;
+    background-color: white;
+    color: #6a696b;
+    border: 1px solid #6a696b;
+    border-right-width: 0.5px;
+    box-shadow: none;
+    margin-right: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.galleryDescription--links__right {
+    border-top-left-radius: 0;
+    border-top-right-radius: 26px;
+    border-bottom-right-radius: 26px;
+    border-bottom-left-radius: 0;
+    padding-left: 49px;
+    padding-right: 49px;
+    height: 52px;
+    line-height: 52px;
+    font-family: Montserrat;
+    font-size: 16px;
+    background-color: white;
+    color: #6a696b;
+    border: 1px solid #6a696b;
+    border-left-width: 0.5px;
+    box-shadow: none;
+    margin-right: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.galleryDescription--links__right:hover {
+    background-color: black;
+    color: white;
+}
+
+.galleryDescription--links__left:hover {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 1400px) {
+    .gallery {
+        margin-right: -325px;
+        margin-left: -325px;
+    }
+
+    /*.galleryDescription {*/
+        /*height: 330px;*/
+    /*}*/
+}
+
+@media (max-width: 1280px) {
+    .gallery {
+        margin-right: -215px;
+        margin-left: -215px;
+    }
+
+    /*.galleryDescription {*/
+        /*height: 300px;*/
+    /*}*/
+}
+
+@media (max-width: 1100px) {
+    .gallery {
+        margin-right: -80px;
+        margin-left: -80px;
+    }
+
+    /*.galleryDescription {*/
+        /*height: 270px;*/
+    /*}*/
+}
+
+@media (max-width: 900px) {
+    .gallery {
+        margin-right: -40px;
+        margin-left: -40px;
+    }
+
+    .galleryDescription {
+        height: calc(100vw / 2 / 1.5);
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery{
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .galleryDescription {
+        height: calc(100vw / 1.5);
+    }
+}
+
+@media (max-width: 320px) {
+    .gallery{
+        padding-bottom: 16px;
+    }
+}

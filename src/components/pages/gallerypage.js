@@ -5,7 +5,7 @@ class GalleryPage extends Component {
     render(){
         return (
             <div className="main">
-                <h3>Gallery</h3>
+                <h3 className="header3">Gallery</h3>
                 <Gallery />
             </div>
         );

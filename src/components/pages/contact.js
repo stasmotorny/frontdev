@@ -110,7 +110,7 @@ class Contact extends Component {
 		return (
 			<div className="contacts--block">
                 <div className="contacts">
-                    <h3 className="contacts--block__header">Contacts:</h3>
+                    <h3 className="contacts--block__header header3">Contacts:</h3>
                     <div className="phone">
                         <p className="phone--header"><b>Phone: &#160;</b></p>
                         <a href="tel:063 837 45 95" className="phone--link"> 063 837 4595</a>
@@ -120,7 +120,7 @@ class Contact extends Component {
                         <a href="mailto:stasmotorny@gmail.com" className="email--link"> stasmotorny@gmail.com</a>
                     </div>
                 </div>
-                <h3 className="contacts--form__header">Send me a message:</h3>
+                <h3 className="contacts--form__header header3">Send me a message:</h3>
                 <form id="testform" onSubmit={this.formSubmit}>
                     <div className="inplabgroup">
                         <input className={this.state.companyClass} id="company" type="text" name="company" value={this.state.company} onChange={this.handleCompanyChange} required />

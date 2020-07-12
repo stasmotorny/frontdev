@@ -16,7 +16,7 @@ class About extends Component {
 			<div className="animation-block">
                 <div id="animation"></div>
                 <ForSmallScreen />
-                <h3 className="skillsGroup">Languages</h3>
+                <h3 className="skillsGroup header3">Languages</h3>
                 <div className="skils">
                     <div className="circularBar">
                         <p className="skillName">English</p>
@@ -28,7 +28,7 @@ class About extends Component {
                     </div>
                 </div>
 
-                <h3 className="skillsGroup">Front-end skils</h3>
+                <h3 className="skillsGroup header3">Front-end skils</h3>
                 <div className="skils">
                     <div className="circularBar">
                         <p className="skillName">HTML 5</p>

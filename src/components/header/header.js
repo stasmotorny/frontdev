@@ -19,10 +19,18 @@ class Header extends Component {
                     </div>
                     <div className="navigation">
                         <ul className="header--Navigation">
-                            <li className="header--Navigation__point"><NavLink to="/home" className="header--Navigation__link">Home</NavLink></li>
-                            <li className="header--Navigation__point"><NavLink to="/gallery" className="header--Navigation__link">Gallery</NavLink></li>
-                            <li className="header--Navigation__point"><NavLink to="/about" className="header--Navigation__link">About</NavLink></li>
-                            <li className="header--Navigation__point"><NavLink to="/contact" className="header--Navigation__link">Contacts</NavLink></li>
+                            <li className="header--Navigation__point">
+                                <NavLink to="/home" className="header--Navigation__link">Home</NavLink>
+                            </li>
+                            <li className="header--Navigation__point">
+                                <NavLink to="/gallery" className="header--Navigation__link">Gallery</NavLink>
+                            </li>
+                            <li className="header--Navigation__point">
+                                <NavLink to="/about" className="header--Navigation__link">About</NavLink>
+                            </li>
+                            <li className="header--Navigation__point">
+                                <NavLink to="/contact" className="header--Navigation__link">Contacts</NavLink>
+                            </li>
                         </ul>
                     </div>
                 </div>
