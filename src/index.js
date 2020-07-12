@@ -6,6 +6,7 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import {myReducer} from './redux/reducers/myReducer';
 import {BrowserRouter} from 'react-router-dom';
+import * as serviceWorker from './serviceWorker';
 
 const store = createStore(
     myReducer,
@@ -20,3 +21,5 @@ ReactDOM.render(
     </Provider>,
     document.getElementById('root')
 );
+
+serviceWorker.unregister();

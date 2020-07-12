@@ -1,13 +1,14 @@
 {
   "name": "my-spa",
   "version": "0.1.0",
-  "homepage": "https://github.com/stasmotorny/stasmotorny.github.io.git",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "antd": "^4.4.2",
     "axios": "^0.18.1",
     "cloudinary-react": "^1.6.1",
     "d3-ease": "^1.0.6",
+    "express": "^4.17.1",
     "flubber": "^0.4.2",
     "form-serialize": "^0.7.2",
     "object-to-formdata": "^1.6.4",
@@ -34,7 +35,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "react-scripts start",
+    "start": "node server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
